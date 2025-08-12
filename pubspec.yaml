@@ -1,7 +1,7 @@
 name: stacked_rotating_loader
 description: "A new Flutter package project."
 version: 0.0.1
-# homepage:
+homepage: https://github.com/emtiazahmedanik/stacked_rotating_loader
 
 environment:
   sdk: ^3.8.1
