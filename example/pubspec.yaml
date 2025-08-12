@@ -1,0 +1,30 @@
+name: stacked_rotating_loader_example
+description: Example app for stacked_rotating_loader package.
+publish_to: "none" # Prevent publishing the example
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Use the package from the parent directory
+  stacked_rotating_loader:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/frame1.png
+    - assets/frame2.png
+    - assets/frame3.png
+    - assets/frame4.png
