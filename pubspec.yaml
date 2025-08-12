@@ -1,10 +1,10 @@
 name: stacked_rotating_loader
-description: "A new Flutter package project."
+description: A customizable Flutter loader that stacks and rotates PNG frames in alternating directions for a smooth, hypnotic animation.
 version: 0.0.1
 homepage: https://github.com/emtiazahmedanik/stacked_rotating_loader
 
 environment:
-  sdk: ^3.8.1
+  sdk: '>=2.12.0 <3.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
