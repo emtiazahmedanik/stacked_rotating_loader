@@ -11,7 +11,7 @@ class StackedRotatingLoader extends StatefulWidget {
   ];
   final double size = 100;
   final Duration duration = const Duration(seconds: 2);
-   StackedRotatingLoader({super.key});
+   StackedRotatingLoader({Key? key}) : super(key: key);
 
   @override
   StackedRotatingLoaderState createState() => StackedRotatingLoaderState();
