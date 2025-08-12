@@ -22,6 +22,10 @@ A customizable and lightweight Flutter loading indicator that stacks multiple PN
 - Works with any set of PNG or ImageProvider assets.
 - No external dependencies — pure Flutter animation.
 
+## Preview
+
+![screen-20250813-010232-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/94aa7ca2-d921-4afd-a973-2ed3be08b6ec)
+
 ## 📦 Installation
 Add to your `pubspec.yaml`:
 ```yaml
