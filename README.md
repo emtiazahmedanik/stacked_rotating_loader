@@ -11,29 +11,47 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# stacked_rotating_loader
 
-## Features
+A customizable and lightweight Flutter loading indicator that stacks multiple PNG frames and rotates them in alternating directions for a smooth, hypnotic loading animation.
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## ✨ Features
+- Stack multiple image frames into a single animated loader.
+- Alternate rotation directions for a dynamic effect.
+- Fully customizable size and speed.
+- Works with any set of PNG or ImageProvider assets.
+- No external dependencies — pure Flutter animation.
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
+## 📦 Installation
+Add to your `pubspec.yaml`:
+```yaml
+dependencies:
+  stacked_rotating_loader: ^0.0.1
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+To use the `StackedRotatingLoader` widget in your Flutter app, simply include it inside your widget tree. Here’s an example of how to add it to a basic `HomePage`:
 
 ```dart
-const like = 'sample';
-```
+import 'package:flutter/material.dart';
+import 'path_to_stacked_rotating_loader.dart'; // Import your custom loader widget
 
-## Additional information
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Loading Indicator'),
+      ),
+      body: SafeArea(
+        child: Center(
+          child: StackedRotatingLoader(),
+        ),
+      ),
+    );
+  }
+}
+
+
+
